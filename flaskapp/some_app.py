@@ -1,5 +1,5 @@
 print("Hello world")
-from flask import Flask
+from Flask import Flask
 app = Flask(__name__)
 #декоратор для вывода страницы по умолчанию
 @app.route("/")
