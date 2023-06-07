@@ -1,7 +1,7 @@
 print("Hello world")
 import subprocess
 subprocess.call(['pip', 'install', '-r', 'requirements.txt'])
-from flask import Flask
+import Flask
 app = Flask(__name__)
 #декоратор для вывода страницы по умолчанию
 @app.route("/")
