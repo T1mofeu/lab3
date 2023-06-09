@@ -4,7 +4,7 @@ install:
 - pip install flask
 - pip install pillow
 - pip install numpy
-- pip install mlatplotlib
+- pip install matplotlib
 - pip install -U Flask-WTF
 - pip install wtforms
 - py ./flaskapp/main.py
